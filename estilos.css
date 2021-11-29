@@ -26,6 +26,11 @@ header div a img {
 }
 
 
+@keyframes logogira {
+    0% {
+    opacity: 0;
+    }
+}
   /* Navegador{} */
 nav {
     height: 100px;
@@ -47,7 +52,7 @@ li {
 a {
     text-decoration: none;
     color: black;
-    font-size: 50px;
+    font-size: 20px;
 }
 
 li a:hover {
@@ -190,9 +195,12 @@ h3 {
     font-size: 30px;
     color: black;
     border: 30px solid #cf86ff;
-    height: 600px;
+    height: 450px;
     width: 500px;
-    padding: 5px;
+    padding: 25px;
+    margin: 20px;
+    align-items: center;
+    justify-content: center;
   }
   
   #item1 {
@@ -214,7 +222,7 @@ h3 {
   .item:hover {
     transform: rotate(1.2);
     transition: ease;
-    color: white;
+    background-color: plum;
   }
   
   #item4 {
@@ -230,12 +238,14 @@ h3 {
     background-image: url(Multimedia/asjn.jpg);
     background-position: center;
   }
-  
-  @media only screen and (max-width: 1200px) {
+
+
+
+  /* @media only screen and (max-width: 1200px) {
     body {
       background-image: linear-gradient(#f0acdb, #f0a3ff, #ce92ff);
     }
-  }
+  } */
   /* Gifts Cards */
   .gift {
     background-color: white;
