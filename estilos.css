@@ -1,323 +1,330 @@
 * {
-    padding: 0;
-    margin: 0;
-    font-family: "Oswald", sans-serif;
+  padding: 0;
+  margin: 0;
+  font-family: "Oswald", sans-serif;
 }
-.logo{
-    width: auto;
+
+.logo {
+  width: auto;
 }
 
 body {
-    background-color: white;
-    padding: 50px;
+  background-color: white;
+  padding: 50px;
 }
 
 header {
-    display: flex;
-    align-items: center;
+  display: flex;
+  align-items: center;
 }
 
-  /* Logo */
+/* Logo */
 header div a img {
-    margin: 10px;
-    height: 150px;
-    width: 200px;
+  margin: 10px;
+  height: 150px;
+  width: 200px;
 }
-
 
 @keyframes logogira {
-    0% {
+  0% {
     opacity: 0;
-    }
+  }
 }
-  /* Navegador{} */
-nav {
-    height: 100px;
-    margin-left:auto;
-    background-color: white;
-    
-}
-
-ul {
-    margin-left: 250px;
-    display: flex;
-    justify-content: space-around;
+/* Navegador{} */
+.navbar {
+  height: 100px;
+  margin-left: auto;
+  background-color: white;
 }
 
-li {
-    list-style: none;
+.navbar-nav {
+  margin-left: 250px;
+  display: flex;
+  justify-content: space-around;
 }
 
-a {
-    text-decoration: none;
-    color: black;
-    font-size: 20px;
+.nav-item {
+  list-style: none;
 }
 
-li a:hover {
-    color: white;
-    animation-name: agrandar;
-    text-shadow: 5px 5px 5px #bd9aff;
-    animation-duration: 2s;
-    animation-delay: 1s;
-    animation-iteration-count: infinite;
+.a {
+  text-decoration: none;
+  color: black;
+  font-size: 20px;
+}
+
+.nav-link:hover {
+  color: white;
+  animation-name: agrandar;
+  text-shadow: 5px 5px 5px #bd9aff;
+  animation-duration: 2s;
+  animation-delay: 1s;
+  animation-iteration-count: infinite;
 }
 
 @keyframes agrandar {
-    0% {
+  0% {
     opacity: 0;
-    }
+  }
 }
-  /* Titulo1 */
+/* Titulo1 */
 .titulo1 {
-    margin: 50px;
-    padding-top: 50px;
-    font-size: 80px;
+  margin: 50px;
+  padding-top: 50px;
+  font-size: 80px;
 }
 
 .titulo2 {
-    margin: 20px;
-    padding-top: 20px;
+  margin: 20px;
+  padding-top: 20px;
 }
 
 /* Index video */
-.video1{
-    margin-left: 5%;
+.video1 {
+  margin-left: 5%;
 }
+
 #item6 {
-    grid-row-start: 1;
-    grid-row-end: 3;
-    background-size: 580px;
-    background-position: center;
-    background-image: url(Multimedia/taichu.jfif);
+  grid-row-start: 1;
+  grid-row-end: 3;
+  background-size: 580px;
+  background-position: center;
+  background-image: url(Multimedia/taichu.jfif);
 }
+
 #item7 {
-    grid-column-start: 3;
-    grid-column-end: 6;
-    background-image: url(Multimedia/nathy.jfif);
-    background-size: 580px;
-    background-position: center;
-
+  grid-column-start: 3;
+  grid-column-end: 6;
+  background-image: url(Multimedia/nathy.jfif);
+  background-size: 580px;
+  background-position: center;
 }
+
 #item8 {
-    grid-row-start: 2;
-    grid-row-end: 4;
-    background-image: url(Multimedia/cazame.jfif);
-    background-position: center;
+  grid-row-start: 2;
+  grid-row-end: 4;
+  background-image: url(Multimedia/cazame.jfif);
+  background-position: center;
 }
+
 #item9 {
-    grid-row-start: 2;
-    grid-row-end: 4;
-    background-image: url(Multimedia/quemaspues.jfif);
-    background-position: center;
-
+  grid-row-start: 2;
+  grid-row-end: 4;
+  background-image: url(Multimedia/quemaspues.jfif);
+  background-position: center;
 }
 
-  /* Productos */
+/* Productos */
 img .item {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-column-gap: 20px;
-    grid-row-gap: 20px;
-    padding: 20px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-column-gap: 20px;
+  grid-row-gap: 20px;
+  padding: 20px;
 }
 
 img a:hover {
-    animation-name: imagen;
-    animation-duration: 2s;
-    animation-delay: 1s;
-    animation-iteration-count: infinite;
+  animation-name: imagen;
+  animation-duration: 2s;
+  animation-delay: 1s;
+  animation-iteration-count: infinite;
 }
 
 section {
-    text-align: center;
+  text-align: center;
 }
 
 .principal {
-    margin: 3rem 0;
-    display: flex;
-    flex-direction: column;
-    text-align: center;
+  margin: 3rem 0;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
 }
+
 #imagenIndex {
-    width: 1000px;
-    height: 1000px;
-    align-items: center;
+  width: 1000px;
+  height: 1000px;
+  align-items: center;
 }
 
 #imagenIndex2 {
-    width: 1000px;
-    height: 1000px;
-    align-items: center;
+  width: 1000px;
+  height: 1000px;
+  align-items: center;
 }
 
 h1 {
-    font-size: 60px;
-    margin: 10px;
-    font-family: sans-serif;
-    text-transform: uppercase;
-    text-align: center;
-    color: black;
-    text-shadow: 5px 5px 5px #9e9e9e;
-    animation-duration: 2s;
-    animation-name: aparecer;
-    animation-delay: 1s;
-    animation-iteration-count: infinite;
+  font-size: 60px;
+  margin: 10px;
+  font-family: sans-serif;
+  text-transform: uppercase;
+  text-align: center;
+  color: black;
+  text-shadow: 5px 5px 5px #9e9e9e;
+  animation-duration: 2s;
+  animation-name: aparecer;
+  animation-delay: 1s;
+  animation-iteration-count: infinite;
 }
 
 @keyframes aparecer {
-    0% {
+  0% {
     opacity: 0;
-    }
+  }
 }
 h2 {
-    font-size: 50px;
+  font-size: 50px;
 }
 
 p {
-    font-size: 20px;
+  font-size: 20px;
 }
 
 h3 {
-    background-color: indigo;
-    font-size: 25px;
-    color: white;
-  }
-  
-  section img {
-    width: 25%;
-    height: 25%;
-  }
-  
-  /* Tienda */
-  .item {
-    background-color: white;
-    font-size: 30px;
-    color: black;
-    border: 30px solid #cf86ff;
-    height: 450px;
-    width: 500px;
-    padding: 25px;
-    margin: 20px;
-    align-items: center;
-    justify-content: center;
-  }
-  
-  #item1 {
-    grid-row-start: 1;
-    grid-row-end: 3;
-    background-size: 580px;
-    background-position: center;
-    background-image: url(Multimedia/arosazules.jpg);
-  }
-  
-  #item2 {
-    grid-column-start: 3;
-    grid-column-end: 6;
-    background-image: url(Multimedia/quemaspues.jfif);
-    background-size: 580px;
-    background-position: center;
-  }
-  
-  .item:hover {
-    transform: rotate(1.2);
-    transition: ease;
-    background-color: plum;
-  }
-  
-  #item4 {
-    grid-row-start: 2;
-    grid-row-end: 4;
-    background-image: url(Multimedia/chockerbond.jpg);
-    background-position: center;
-  }
-  
-  #item5 {
-    grid-row-start: 2;
-    grid-row-end: 4;
-    background-image: url(Multimedia/asjn.jpg);
-    background-position: center;
-  }
+  background-color: indigo;
+  font-size: 25px;
+  color: white;
+}
 
+section img {
+  width: 25%;
+  height: 25%;
+}
 
-  /* Gifts Cards */
-  .gift {
-    background-color: white;
-    font-size: 30px;
-    color: black;
-    border: 30px solid #cf86ff;
-    display: grid;
-    grid-column-start: 2;
-    grid-column-end: 4;
-    height: 300px;
-    width: 50%;
-    margin-left: 22%;
-  }
-  
-  #gift1 {
-    display: grid;
-    background-image: url(Multimedia/logo.png);
-    grid-column-start: 1;
-    grid-column-end: 2;
-  }
-  
-  #gift2 {
-    display: grid;
-    background-image: url(Multimedia/logo.png);
-    grid-column-start: 1;
-    grid-column-end: 2;
-  }
-  
-  .form1 {
-    padding-top: 0%;
-    text-align: center;
-  }
-  
-  /* Marca */
-  .clase1 {
-    margin: 20px;
-  }
-  
-  .clase2 {
-    display: flex;
-    flex-direction: row;
-  }
-  
-  /* Footer */
-footer{
-    margin: 20px;
-} 
+/* Tienda */
+.item {
+  background-color: white;
+  font-size: 30px;
+  color: black;
+  border: 30px solid #cf86ff;
+  height: 450px;
+  width: 500px;
+  padding: 25px;
+  margin: 20px;
+  align-items: center;
+  justify-content: center;
+}
 
-svg{
-    height: 50px;
-    width: 50px;
-    color: white;
+#item1 {
+  grid-row-start: 1;
+  grid-row-end: 3;
+  background-size: 580px;
+  background-position: center;
+  background-image: url(Multimedia/arosazules.jpg);
 }
-.pie-pagina{
-    width: 100%;
-    background-color: black;
+
+#item2 {
+  grid-column-start: 3;
+  grid-column-end: 6;
+  background-image: url(Multimedia/quemaspues.jfif);
+  background-size: 580px;
+  background-position: center;
 }
-.pie-pagina .grupo-1{
-    width: 100%;
-    max-width: 1200px;
-    display: grid;
-    grid-template-columns: repeat(3,1fr);
-    grid-gap: 100px;
-    padding: 45px 20px;
+
+.item:hover {
+  transform: rotate(1.2);
+  transition: ease;
+  background-color: plum;
 }
-.pie-pagina .grupo-1 .box figure{
-    width: 100px;
-    height: 100px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+
+#item4 {
+  grid-row-start: 2;
+  grid-row-end: 4;
+  background-image: url(Multimedia/chockerbond.jpg);
+  background-position: center;
 }
-.pie-pagina .grupo-1 .box figure img{
-    width: 130px;
-    margin-left: 20px;
+
+#item5 {
+  grid-row-start: 2;
+  grid-row-end: 4;
+  background-image: url(Multimedia/asjn.jpg);
+  background-position: center;
 }
+
+/* Gifts Cards */
+.gift {
+  background-color: white;
+  font-size: 30px;
+  color: black;
+  border: 30px solid #cf86ff;
+  display: grid;
+  grid-column-start: 2;
+  grid-column-end: 4;
+  height: 300px;
+  width: 50%;
+  margin-left: 22%;
+}
+
+#gift1 {
+  display: grid;
+  background-image: url(Multimedia/logo.png);
+  grid-column-start: 1;
+  grid-column-end: 2;
+}
+
+#gift2 {
+  display: grid;
+  background-image: url(Multimedia/logo.png);
+  grid-column-start: 1;
+  grid-column-end: 2;
+}
+
+.form1 {
+  padding-top: 0%;
+  text-align: center;
+}
+
+/* Marca */
+.clase1 {
+  margin: 20px;
+}
+
+.clase2 {
+  display: flex;
+  flex-direction: row;
+}
+
+/* Footer */
+/* footer{
+    margin: 20px;
+}  */
+svg {
+  height: 50px;
+  width: 50px;
+  color: white;
+}
+
+.pie-pagina {
+  width: 100%;
+  background-color: black;
+}
+
+.pie-pagina .grupo-1 {
+  width: 100%;
+  max-width: 1200px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 100px;
+  padding: 45px 20px;
+}
+
+.pie-pagina .grupo-1 .box figure {
+  width: 100px;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.pie-pagina .grupo-1 .box figure img {
+  width: 130px;
+  margin-left: 20px;
+}
+
 .pie-pagina .grupo-1 .box {
-    color: white;
-    margin-bottom: 25px;
-    font-size: 20px;
+  color: white;
+  margin-bottom: 25px;
+  font-size: 20px;
 }
+
+/*# sourceMappingURL=estilos.css.map */
