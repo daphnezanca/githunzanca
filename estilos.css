@@ -3,7 +3,6 @@
     margin: 0;
     font-family: "Oswald", sans-serif;
 }
-/* {} */
 .logo{
     width: auto;
 }
@@ -154,6 +153,7 @@ section {
 
 h1 {
     font-size: 60px;
+    margin: 10px;
     font-family: sans-serif;
     text-transform: uppercase;
     text-align: center;
@@ -240,12 +240,6 @@ h3 {
   }
 
 
-
-  /* @media only screen and (max-width: 1200px) {
-    body {
-      background-image: linear-gradient(#f0acdb, #f0a3ff, #ce92ff);
-    }
-  } */
   /* Gifts Cards */
   .gift {
     background-color: white;
@@ -327,6 +321,3 @@ svg{
     margin-bottom: 25px;
     font-size: 20px;
 }
-/*# sourceMappingURL=estilos.css.map */
-  /* {
-} */
